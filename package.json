@@ -1,0 +1,22 @@
+{
+  "name": "uteisluiz",
+  "version": "1.0.2",
+  "description": "Ferramentas necessarias",
+  "main": "uteisluiz.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec",
+    "watch": "istanbul cover _mocha -- -R spec --watch"
+  },
+  "author": "Luiz Carlos",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "uteisluiz": "uteisluiz.js"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "commander": "^6.1.0"
+  }
+}
